@@ -29,7 +29,7 @@ console.log(typeof id)
 console.log(typeof info)
 console.log(typeof heros)
 
-//**********************************
+//**************************************
 // Stack (Primitive) ,Heap(Non Primitive)
 
 let oneVariable =" my value is one "
