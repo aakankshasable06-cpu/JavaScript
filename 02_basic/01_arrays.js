@@ -35,10 +35,13 @@ console.log('A' ,arr);
 const arr2 = arr.slice(1,3)
 console.log(arr2);
 console.log('B' ,arr);
+
 // slice give a slice form the array (excludes end )did not  muniplate orginal array
+
 const arr3 = arr.splice(1,3)
 console.log(arr3);
 console.log('C' ,arr);
+
 // whereas  splice give a slice form the array (includes the end)  did not  muniplate orginal array
 
 
