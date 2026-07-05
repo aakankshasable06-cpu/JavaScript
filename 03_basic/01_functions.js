@@ -20,4 +20,33 @@ function userLogIn(username ){
     }
     return`${username} just login`
 }
-console.log(userLogIn());
+// console.log(userLogIn());
+
+function calculateCartPrice(...num){
+    let sum =0
+    for (let i = 0;i < num.length;i++)
+    {
+        sum +=num[i]   
+    }
+    return sum
+}
+
+// console.log(calculateCartPrice(150,270,4300));
+
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+let user = {
+    username :"sam",
+    price : 499
+}
+// handleObject(user)
+// handleObject({username:"ram",price:1000})
+
+function  returnsecondvalue(arr){
+    return arr[1]
+    
+}
+console.log(returnsecondvalue([142,566,75,45]));
