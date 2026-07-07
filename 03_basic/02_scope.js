@@ -32,7 +32,7 @@ function one (){
     // console.log(wedsite);
     two ()
 }
-// one()
+one()
 
 if (true){
     const username="aakanksha"
